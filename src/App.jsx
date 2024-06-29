@@ -13,6 +13,7 @@ import Quiz from './pages/quiz/Quiz';
 import Start from './pages/start/Start';
 import List from './pages/list/List';
 import Cocktail from './pages/cocktail/Cocktail';
+import Error from './pages/error/Error';
 
 const AppWrapper = styled.div`
   position: relative;
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/cocktails/:id" element={<Cocktail />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/start" element={<Start />} />
+          <Route path="/*" element={<Error />} />
         </Routes>
       </AppContainer>
       <NavigationBar />

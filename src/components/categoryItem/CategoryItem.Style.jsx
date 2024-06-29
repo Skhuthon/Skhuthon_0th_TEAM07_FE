@@ -7,13 +7,13 @@ export const CategoryItemWrapper = styled.div`
   align-items: center;
   padding: 10px;
   margin: 5px;
-  background-color: #48b0d9;
+  background-color: #f0f2f2;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #398cbf;
+    background-color: #f7be3b;
   }
 `;
 
@@ -29,8 +29,9 @@ export const CategoryIconWrapper = styled.div`
 `;
 
 export const CategoryIcon = styled.img`
-  width: 80px;
-  height: 80px;
+  width: 105px;
+  height: 105px;
+  border-radius: 10%;
 `;
 
 export const CategoryTextWrapper = styled.div`
@@ -41,7 +42,7 @@ export const CategoryTextWrapper = styled.div`
 `;
 
 export const CategoryText = styled.span`
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #2d1914;
   white-space: pre-wrap;
