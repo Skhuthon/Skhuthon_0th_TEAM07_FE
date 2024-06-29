@@ -1,12 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import * as S from './ActiveButton.Style';
 
 const ActiveButton = ({ title, navigateTo }) => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate(navigateTo);
+    if (navigateTo === '-1') {
+      navigate(-1); // 뒤로 가기
+    } else {
+      navigate(navigateTo);
+    }
   };
 
   return (
@@ -14,6 +19,12 @@ const ActiveButton = ({ title, navigateTo }) => {
       <S.ActiveButton onClick={handleNavigate}>{title}</S.ActiveButton>
     </S.ButtonWrapper>
   );
+};
+
+ActiveButton.propTypes = {
+  title: PropTypes.string.isRequired,
+  navigateTo: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    .isRequired,
 };
 
 export default ActiveButton;

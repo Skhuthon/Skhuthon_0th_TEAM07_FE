@@ -36,7 +36,7 @@ export const ListThumbnail = styled.img`
 
 export const InfoContainer = styled.div`
   padding: 9px;
-  background-color: #48b0d9;
+  background-color: #f7be3b;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -64,19 +64,19 @@ export const ListLoding = styled.div`
 export const ListItems = styled.div`
   border-radius: 16px;
   overflow: hidden;
-  outline: 2px solid #48b0d9;
+  outline: 2px solid white;
   width: 155px;
   height: 155px;
   box-sizing: border-box;
   cursor: pointer;
 
   &:hover {
-    outline: 2px solid #398cbf;
+    outline: 2px solid #f7be3b;
     ${InfoContainer} {
-      background-color: #398cbf;
+      background-color: #f0f2f2;
     }
     ${ListTitle} {
-      color: white;
+      color: black;
     }
   }
 `;
