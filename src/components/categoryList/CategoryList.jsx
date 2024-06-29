@@ -2,8 +2,6 @@ import React from 'react';
 import * as S from './CategoryList.Style';
 import CategoryItem from '../categoryItem/CategoryItem';
 
-import TestIcon from '../../assets/images/image-navigation-logo.png';
-
 import MockImage1 from '../../assets/images/banner/1.png';
 import MockImage2 from '../../assets/images/banner/2.png';
 import MockImage3 from '../../assets/images/banner/3.png';
