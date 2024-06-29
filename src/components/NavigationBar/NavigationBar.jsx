@@ -15,10 +15,8 @@ import CategoryIcon from '../../assets/icons/icon-navigation-category.png';
 import CategortIconActive from '../../assets/icons/icon-navigation-category-active.png';
 
 // 퀴즈 아이콘 임포트
-// import QuizIcon from '../../assets/icons/icon-navigation-quiz.png';
-// import QuizIconActive from '../../assets/icons/icon-navigation-quiz-active.png';
-import PersonIcon from '../../assets/icons/icon-navigation-person.png';
-import PersonIconActive from '../../assets/icons/icon-navigation-person-active.png';
+import QuizIcon from '../../assets/icons/icon-navigation-quiz.png';
+import QuizIconActive from '../../assets/icons/icon-navigation-quiz-active.png';
 
 // 중앙 메인 로고 임포트
 import Logo from '../../assets/images/image-navigation-logo.png';
@@ -73,11 +71,10 @@ const NavigationBar = () => {
         {/* 퀴즈 버튼 컴포넌트 */}
         <S.NavigationBarMenu onClick={() => navigate('/start')}>
           <S.NavigationBarIcon
-            // src={isActive('/quiz') ? QuizIconActive : QuizIcon}
-            src={isActive('/start') ? PersonIconActive : PersonIcon}
-            alt="Quiz"
+            src={isActive('/start') ? QuizIconActive : QuizIcon}
+            alt="Quiz Start"
           />
-          <S.NavigationBarText $active={isActive('start')}>
+          <S.NavigationBarText $active={isActive('/start')}>
             Quiz
           </S.NavigationBarText>
         </S.NavigationBarMenu>
