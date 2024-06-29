@@ -255,7 +255,7 @@ const Search = () => {
     : [];
 
   const handleSearchClick = (post) => {
-    const category = post.category.replace(/\s+/g, '-').toLowerCase();
+    const category = post.categoryName.replace(/\s+/g, '-').toLowerCase();
     navigate(`/cocktail/${category}/${post.id}`);
   };
 
