@@ -71,13 +71,13 @@ const NavigationBar = () => {
         </S.NavigationBarMenu>
 
         {/* 퀴즈 버튼 컴포넌트 */}
-        <S.NavigationBarMenu onClick={() => navigate('/quiz')}>
+        <S.NavigationBarMenu onClick={() => navigate('/start')}>
           <S.NavigationBarIcon
             // src={isActive('/quiz') ? QuizIconActive : QuizIcon}
-            src={isActive('/quiz') ? PersonIconActive : PersonIcon}
+            src={isActive('/start') ? PersonIconActive : PersonIcon}
             alt="Quiz"
           />
-          <S.NavigationBarText $active={isActive('/quiz')}>
+          <S.NavigationBarText $active={isActive('start')}>
             Quiz
           </S.NavigationBarText>
         </S.NavigationBarMenu>
