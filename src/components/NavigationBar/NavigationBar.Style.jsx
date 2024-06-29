@@ -26,6 +26,7 @@ export const NavigationBarMenu = styled.div`
   justify-content: center;
   flex: 1;
   padding-bottom: 10px;
+  cursor: pointer;
 `;
 
 export const NavigationBarIcon = styled.img`
@@ -40,8 +41,8 @@ export const NavigationBarLogo = styled.img`
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  /* background-color: #fff; */
   z-index: 11;
+  cursor: default;
 `;
 
 export const NavigationBarText = styled.span`

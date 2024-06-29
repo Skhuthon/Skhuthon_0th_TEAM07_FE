@@ -12,7 +12,7 @@ export const TopBarContainer = styled.div`
   align-items: center;
   padding: 16px 24px 16px 34px;
   z-index: 100;
-  background-color: 1F2C3A;
+  background-color: #1f2c3a;
 `;
 
 export const BackIcon = styled.img.attrs({

@@ -8,7 +8,7 @@ const ActiveButton = ({ title, navigateTo }) => {
 
   const handleNavigate = () => {
     if (navigateTo === '-1') {
-      navigate(-1); // 뒤로 가기
+      navigate(-1);
     } else {
       navigate(navigateTo);
     }

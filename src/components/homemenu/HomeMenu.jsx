@@ -1,7 +1,6 @@
 import React from 'react';
 import HomeItem from '../homeItem/HomeItem';
 import * as S from './HomeMenu.Style';
-import TestIcon from '../../assets/images/image-navigation-logo.png';
 
 import MockImage1 from '../../assets/images/banner/1.png';
 import MockImage2 from '../../assets/images/banner/2.png';

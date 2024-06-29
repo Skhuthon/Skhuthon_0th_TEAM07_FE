@@ -13,19 +13,19 @@ import BannerImage4 from '../../assets/images/banner/4.png';
 const images = [
   {
     src: BannerImage1,
-    route: '/search',
+    route: '/category/aperitif-cocktail',
   },
   {
     src: BannerImage2,
-    route: '/search',
+    route: '/category/before-dinner-cocktail',
   },
   {
     src: BannerImage3,
-    route: '/search',
+    route: '/category/all-day-type-cocktail',
   },
   {
     src: BannerImage4,
-    route: '/search',
+    route: '/after-dinner-cocktail',
   },
 ];
 

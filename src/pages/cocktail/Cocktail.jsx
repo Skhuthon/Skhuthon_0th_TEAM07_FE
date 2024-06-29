@@ -44,14 +44,27 @@ const Cocktail = () => {
       <S.CocktailEngTitle>{cocktail.engName}</S.CocktailEngTitle>
       <S.CocktailImage src={cocktail.image} alt={cocktail.engName} />
       <S.CocktailContentWrapper>
-        <S.CocktailLocation>위치: {cocktail.location}</S.CocktailLocation>
-        <S.CocktailIngredient>
-          재료: {cocktail.ingredients}
-        </S.CocktailIngredient>
-        <S.CocktailGarnish>장식: {cocktail.garnish}</S.CocktailGarnish>
-        <S.CocktailContent>레시피: {cocktail.content}</S.CocktailContent>
-        <S.CocktailColor>색: {cocktail.color}</S.CocktailColor>
-        <S.CocktailAbv>도수: {cocktail.abv}</S.CocktailAbv>
+        <S.CocktailDescription>
+          <S.CocktailDetail>
+            <S.Keyword>재료: </S.Keyword> {cocktail.ingredients}
+          </S.CocktailDetail>
+          <S.CocktailDetail>
+            <S.Keyword>장식: </S.Keyword> {cocktail.garnish}
+          </S.CocktailDetail>
+          <S.CocktailDetail>
+            <S.DetailItem>
+              <S.Keyword>위치: </S.Keyword> {cocktail.location}
+            </S.DetailItem>
+            <S.DetailItem>
+              <S.Keyword>색: </S.Keyword> {cocktail.color}
+            </S.DetailItem>
+            <S.DetailItem>
+              <S.Keyword>도수: </S.Keyword> {cocktail.abv}
+            </S.DetailItem>
+          </S.CocktailDetail>
+        </S.CocktailDescription>
+        <S.Keyword>즐기는법</S.Keyword>
+        <S.CocktailContent>{cocktail.content}</S.CocktailContent>
       </S.CocktailContentWrapper>
     </S.CocktailContainer>
   );
