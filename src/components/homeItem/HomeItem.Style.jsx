@@ -14,7 +14,7 @@ export const HomeItemWrapper = styled.div`
 export const MenuIconWrapper = styled.div`
   width: 70px;
   height: 70px;
-  background-color: #79bbe9;
+  background-color: #48b0d9;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ export const MenuIconWrapper = styled.div`
   margin-bottom: 8px;
 
   &:hover {
-    background-color: #5b9fcf;
+    background-color: #398cbf;
   }
 `;
 
