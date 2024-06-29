@@ -10,4 +10,5 @@ export const StartContainer = styled.div`
 
 export const StartLogo = styled.img`
   width: 200px;
+  margin-top: 140px;
 `;
