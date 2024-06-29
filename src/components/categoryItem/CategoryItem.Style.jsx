@@ -7,13 +7,13 @@ export const CategoryItemWrapper = styled.div`
   align-items: center;
   padding: 10px;
   margin: 5px;
-  background-color: #f7be3b;
+  background-color: #48b0d9;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #fef5a6;
+    background-color: #398cbf;
   }
 `;
 
