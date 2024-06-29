@@ -10,6 +10,7 @@ import Home from './pages/home/Home';
 import Search from './pages/search/Search';
 import Category from './pages/category/Category';
 import Quiz from './pages/quiz/Quiz';
+import Start from './pages/start/Start';
 
 const AppWrapper = styled.div`
   position: relative;
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/search" element={<Search />} />
           <Route path="/category" element={<Category />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/start" element={<Start />} />
         </Routes>
       </AppContainer>
       <NavigationBar />
