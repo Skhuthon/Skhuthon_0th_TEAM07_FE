@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import * as S from './Start.Style';
 import LogoImage from '../../assets/images/image-navigation-logo.png';
 import ActiveButton from '../../components/activeButton/ActiveButton';
