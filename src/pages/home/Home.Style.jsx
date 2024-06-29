@@ -7,7 +7,3 @@ export const HomeContainer = styled.div`
   justify-content: flex-start;
   box-sizing: border-box;
 `;
-
-export const HomeTitleTest = styled.h1`
-  color: #f0f2f2;
-`;
